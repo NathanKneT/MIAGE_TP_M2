@@ -43,6 +43,17 @@ async def chat(request: ChatRequestTP2) -> ChatResponse:
         return ChatResponse(response=response)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+    
+@router.get("/sessions")
+async def get_all_sessions() -> List[str]:
+    """
+    Récupération de toutes les sessions disponibles
+    """
+    try:
+        return list(llm_service.conversation_store.keys())
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 
 @router.get("/history/{session_id}")
 async def get_history(session_id: str) -> List[Dict[str, str]]:
