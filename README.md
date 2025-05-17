@@ -1,6 +1,43 @@
-# Projet TP MIAGE M2 - Agent Conversationnel
+# Conversational Agents - Master's Course Workshop (Université Côte d’Azur)
 
-## Structure du Projet
+This repository contains the practical materials I designed and taught for the **Conversational Agents AI Course** at Université Côte d’Azur (M2 - Master in Artificial Intelligence, Dec 2024 – Jan 2025).
+
+## 🧠 Course Overview
+
+- **Duration**: 2 months, 7 workshops
+- **Audience**: Master’s students in Artificial Intelligence
+- **Focus**: Design and implementation of Conversational Agents using **Large Language Models**, **FastAPI**, and **Langchain**
+
+## 🛠️ Technologies
+
+- Python 3.11+
+- FastAPI
+- Langchain
+
+## 📚 Content Summary
+
+| Workshop | Topics |
+|----------|--------|
+| 1        | Introduction to LLMs and Chatbots |
+| 2        | APIs and REST principles |
+| 3        | FastAPI fundamentals |
+| 4        | Langchain Chains & Tools |
+| 5        | Function Calling with LLMs |
+| 6        | Evaluation & Prompt Engineering |
+| 7        | Group Projects & Demo Day |
+
+## ✍️ About the Instructor
+
+This course was designed and taught by [Nathan Rihet](https://www.linkedin.com/in/nathan-rihet/?locale=en_US), Full-Stack & AI Engineer, as part of an academic collaboration with Université Côte d’Azur.
+
+
+> Helping students bridge the gap between **AI theory** and **real-world applications** through hands-on LLM-based projects.
+
+---
+
+Feel free to use, adapt, and contribute.
+
+## Architecture
 
 ```
 C:.
